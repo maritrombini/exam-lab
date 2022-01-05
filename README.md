@@ -23,7 +23,7 @@ A API é capaz de cadastrar um novo exame, visualizar os exames cadastrados, bus
 | GET    | `/exams `               | Retornar todos os exames cadastrados             |
 | GET    | `/exams/:id`            | Retornar apenas exame com ID específico          |
 | GET    | `/exams/doctor/:doctor` | Retornar apenas exame de médico(a) específico(a) |
-| GET    | `/exams/done/:done`     | Retornar apenas exames realizados                |
+| GET    | `/exams/done/done`      | Retornar apenas exames realizados                |
 | POST   | `/exams`                | Cadastrar um novo exame                          |
 | PATCH  | `/exams/:id/done`       | Marcar se o exame foi realizado                  |
 | PUT    | `/exams/:id`            | Atualizar dados do exame                         |
