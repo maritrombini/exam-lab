@@ -18,7 +18,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"Endoscopia\",\r\n        \"doctor\": \"Paulo Pena\",\r\n        \"specialty\": \"Gastrologia\",\r\n        \"clinic\": \"La Vie Clinic\",\r\n        \"expected_date\": \"12/08/2021\",\r\n        \"done\": false\r\n\r\n}",
+					"raw": "{\r\n        \"name\": \"Exame de Sangue\",\r\n        \"doctor\": \"Suzana Machado\",\r\n        \"specialty\": \"Nutrologia\",\r\n        \"clinic\": \"Your Health Clinic\",\r\n        \"expected_date\": \"24/11/2022\",\r\n        \"done\": false\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -26,12 +26,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/exams",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams"
 					]
@@ -45,12 +46,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/exams",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams"
 					]
@@ -59,17 +61,18 @@
 			"response": []
 		},
 		{
-			"name": "Get  exam",
+			"name": "Get  done exams",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/exams/done/done",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/done/done",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
 						"done",
@@ -85,12 +88,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/exams/6",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/6",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
 						"6"
@@ -106,7 +110,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id\": \"3\",\r\n        \"name\": \"Eco Doppler\",\r\n        \"specialty\": \"Cardiologia\",\r\n        \"clinic\": \"La Vie Clinic\",\r\n        \"expected_date\": \"04/12/2021\",\r\n        \"done\": true\r\n}",
+					"raw": "{\r\n        \"name\": \"Ressonância Magnética\",\r\n        \"doctor\": \"Sônia Medeiros\",\r\n        \"specialty\": \"Ortopedia\",\r\n        \"clinic\": \"Fleury Clinic\",\r\n        \"expected_date\": \"09/01/2022\",\r\n        \"done\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -114,15 +118,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/exams/3",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/7",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
-						"3"
+						"7"
 					]
 				}
 			},
@@ -141,7 +146,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"done\": true\r\n}",
+					"raw": "{\r\n   \"done\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -149,15 +154,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/exams/9/done",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/7/done",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
-						"9",
+						"7",
 						"done"
 					]
 				}
@@ -170,12 +176,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/exams/6",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/6",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
 						"6"
@@ -190,16 +197,17 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/exams/doctor/Mariana Pacheco",
-					"protocol": "http",
+					"raw": "https://exam-lab.herokuapp.com/exams/doctor/Sônia Medeiros",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"exam-lab",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"exams",
 						"doctor",
-						"Mariana Pacheco"
+						"Sônia Medeiros"
 					]
 				}
 			},

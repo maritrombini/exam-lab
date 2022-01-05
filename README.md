@@ -32,3 +32,5 @@ A API é capaz de cadastrar um novo exame, visualizar os exames cadastrados, bus
 ---
 
 API utilizando o NodeJS, banco de dados e a plataforma Heroku.
+
+https://exam-lab.herokuapp.com/
